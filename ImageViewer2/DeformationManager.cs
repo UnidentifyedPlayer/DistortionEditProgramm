@@ -32,8 +32,8 @@ namespace ImageViewer2
         }
         public void SetUpGrids()
         {
-            float x_step = image_width / (float)(y_lines_num+1);
-            float y_step = image_height / (float)(x_lines_num+1);
+            float x_step = image_width / (float)(x_lines_num+1);
+            float y_step = image_height / (float)(y_lines_num+1);
 
             std_grid = new PointF[x_lines_num+2, y_lines_num+2];
             corr_grid = new PointF[x_lines_num+2, y_lines_num+2];
